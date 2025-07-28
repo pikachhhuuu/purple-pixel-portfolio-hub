@@ -44,7 +44,7 @@ const Index = () => {
       <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
       
       {/* Main Content */}
-      <div className="ml-16 min-h-screen">
+      <div className="ml-24 min-h-screen">
         <main className="p-8 max-w-7xl mx-auto">
           {renderContent()}
         </main>

@@ -29,7 +29,7 @@ const menuItems = [
 export const Sidebar = ({ activeTab, onTabChange }: SidebarProps) => {
   return (
     <TooltipProvider>
-      <div className="fixed left-0 top-0 h-screen w-16 bg-sidebar border-r border-sidebar-border z-40">
+      <div className="fixed left-4 top-4 bottom-4 w-16 bg-sidebar border border-sidebar-border rounded-xl z-40">
         <div className="flex flex-col h-full">
           {/* Logo/Brand */}
           <div className="p-3 border-b border-sidebar-border">
